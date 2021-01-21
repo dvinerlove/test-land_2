@@ -1,0 +1,237 @@
+body {
+  font-family : 'Open Sans',
+                sans-serif;
+  font-size   : 16px;
+}
+
+h3 {
+  color : rgba(0, 0, 0, 0.6);
+}
+
+p {
+  color : rgba(0, 0, 0, 0.4);
+}
+
+.navbar-default {
+  z-index          : 2;
+  height           : 80px;
+  margin-bottom    : 0;
+  background-color : rgba(0, 0, 0, 0.8);
+}
+
+.navbar-toggle {
+  margin-top       : 27px;
+  background-color : rgba(0, 0, 0, 0.4);
+}
+
+.navbar-collapse.in {
+  background-color : rgba(0, 0, 0, 0.8);
+}
+
+.navbar-brand {
+  margin-top   : 10px;
+  margin-right : 165px;
+  font-size    : 28px;
+}
+
+.navbar-nav li > a {
+  height         : 80px;
+  margin-right   : 13px;
+  margin-left    : 13px;
+  padding-top    : 29px;
+  text-transform : uppercase;
+  font-size      : 14px;
+  font-weight    : bold;
+}
+
+.navbar-nav li:hover {
+  background-color : rgba(255, 63, 64, 1);
+}
+
+.thumbnail {
+  width            : 100%;
+  max-width        : 501px;
+  height           : 100%;
+  height           : 325px;
+  margin           : 90px 0 40px auto;
+  border-color     : #c4c0b1;
+  border-radius    : 0;
+  background-color : #c4c0b1;
+  box-shadow       : -5px -5px 3em grey;
+}
+
+.firstrow {
+  z-index    : 1;
+  max-width  : 100%;
+  height     : 100%;
+  min-height : 510px;
+}
+
+.vertical-center {
+  display         : flex;
+  height          : 593px;
+  align-items     : flex-start;
+  flex-direction  : column;
+  justify-content : flex-start;
+}
+
+.grey-stripe {
+  z-index          : -1;
+  position         : absolute;
+  width            : 100%;
+  height           : 673px;
+  margin           : 0;
+  background-color : #f6f2f2;
+}
+
+.company-name {
+  margin-top     : 80px;
+  margin-bottom  : 0;
+  color          : rgba(0, 0, 0, 0.8);
+  text-transform : uppercase;
+  font-size      : 56px;
+  font-weight    : 800;
+  line-height    : 1.2;
+}
+
+.company-name.long {
+  margin-top     : 0;
+  margin-bottom  : 16px;
+  letter-spacing : 8px;
+}
+
+.org-desc {
+  margin-left : 3px;
+  font-size   : 14px;
+  line-height : 1.8;
+}
+
+.contact-btn {
+  width            : 207px;
+  height           : 50px;
+  margin-top       : 38px;
+  margin-left      : 1px;
+  padding-top      : 12px;
+  border-color     : rgba(255, 63, 64, 1);
+  background-color : rgba(255, 63, 64, 1);
+  font-style       : 'Open Sans',
+                     sans-serif;
+  font-weight      : bold;
+}
+
+.white {
+  background-color : white;
+}
+
+.grey {
+  background-color : #f6f2f2;
+}
+
+.titles {
+  margin         : 19px 0;
+  text-transform : uppercase;
+  font-size      : 40px;
+  font-weight    : bold;
+  line-height    : 1.2;
+}
+
+.sec2-title-marg {
+  margin-bottom : 28px;
+}
+
+.sec2-org-desc {
+  padding     : 0;
+  line-height : 1.9;
+}
+
+.learn-btn {
+  width            : 207px;
+  height           : 50px;
+  margin           : 35px 0 35px 1px;
+  color            : rgba(255, 63, 64, 1);
+  border-color     : rgba(255, 63, 64, 1);
+  border-width     : 1.5px;
+  background-color : white;
+  font-weight      : bold;
+}
+
+.desc {
+  margin-top    : 20px;
+  margin-bottom : 20px;
+  color         : rgba(0, 0, 0, 0.4);
+  font-size     : 14px;
+  line-height   : 1.8;
+}
+
+.desc.low-desc {
+  margin-bottom : 67px;
+}
+
+.no-padd {
+  padding : 0;
+}
+
+.no-marg {
+  margin : 0;
+}
+
+.sec3-title {
+  margin-top    : 67px;
+  margin-bottom : 15px;
+}
+
+.nav-pills > li > a {
+  text-transform : uppercase;
+  font-weight    : bolder;
+}
+
+.nav-pills > li > a:hover {
+  color            : rgba(255, 63, 64, 1);
+  background-color : white;
+}
+
+.nav-pills > li.active > a:active {
+  color            : rgba(255, 63, 64, 1);
+  background-color : white;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:focus,
+.nav-pills > li.active > a:hover {
+  background-color : white;
+}
+
+.nav-pills > li > a:focus {
+  color            : rgba(255, 63, 64, 1);
+  background-color : white;
+}
+
+.short {
+  width         : 120px;
+  border-bottom : 2px solid rgba(255, 63, 64, 0.6);
+}
+
+.feat-marg {
+  margin : 23px auto 65px auto;
+}
+
+.pills {
+  font-size : 20px;
+}
+
+.current-member {
+  width            : 300px;
+  height           : 400px;
+  margin-top       : 50px;
+  background-color : #f6f2f2;
+}
+
+.member {
+  text-transform : uppercase;
+}
+
+@media (max-width: 768px) {
+  .firstrow {
+    margin : 0;
+  }
+}
